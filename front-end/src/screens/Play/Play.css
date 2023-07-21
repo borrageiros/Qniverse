@@ -1,0 +1,67 @@
+body {
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+}
+
+.left,
+.rigth-play {
+    height: 100vh;
+    width: 50%;
+}
+
+.user {
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vh;
+}
+
+.user img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+}
+
+.search-player {
+    position: absolute;
+    right: 51%;
+    top: 6vh;
+    align-items: center;
+    content: "";
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons input {
+    margin-top: 3%;
+    width: 40%;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+
+.rigth-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../images/space-cartoon.jpeg") no-repeat fixed center;
+}
+

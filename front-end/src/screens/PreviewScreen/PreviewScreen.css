@@ -1,0 +1,107 @@
+body {
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+}
+.left {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+
+
+/* USER */
+.user{
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vh;
+}
+.user img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+}
+
+
+/* SEARCH */
+.search-player{
+    position: absolute;
+    right: 51%;
+    top: 6vh;
+    align-items: center;
+    content: "";
+}
+
+
+/* BUTTONS */
+.buttons{
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons input{
+    margin-top: 3%;
+    width: 40%;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+/* player banner */
+.right {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../images/universe.png");
+    border-left: 1px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position:relative;
+}
+
+.right > h1{
+    color: yellow;
+    text-align: left;
+}
+div[class^='preplayer']{
+    position: absolute;
+    height: 15vh;
+    width: 60vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    background-color: white
+}
+div[class^='preplayer'] img{
+    height: 8vh;
+}
+.preplayer1{
+    top: 35vh;
+}
+.preplayer2{
+    top:60vh
+}
+.versus{
+    width:10vh;
+    height:auto;
+    position:absolute;
+    top:50%;
+    left:45%;
+}

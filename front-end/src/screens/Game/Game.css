@@ -1,0 +1,57 @@
+.game-main-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/universe.png");
+    color: white;
+}
+
+.game-profile{
+    position: absolute;
+    margin: 5vh;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.game-profile img{width: 30%;}
+
+
+.game-question{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.game-question .description{
+    color: black;
+    background-color: white;
+    padding: 1vh;
+    border: 1px solid black;
+}
+.game-question .timer{
+    font-size: xx-large;
+}
+.game-question .answers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.game-question img{
+    width: 20vh;
+}
+.game-question .answers button{
+    font-size: 5vh;
+    text-align: center;
+}
+.game-question .answers button:hover{cursor: pointer;background-color: gray;}
+
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}

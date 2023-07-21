@@ -1,0 +1,105 @@
+body {
+    overflow: hidden;
+}
+
+.main-container-home {
+    display: flex;
+}
+.left-home {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.rigth-home {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../images/universe.png");
+    border-left: 1px solid black;
+}
+
+
+/* USER */
+.user{
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vh;
+    cursor: pointer;
+}
+.user img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+}
+
+
+/* SEARCH */
+.search-player{
+    position: absolute;
+    right: 51%;
+    top: 6vh;
+    align-items: center;
+    content: "";
+}
+
+
+/* BUTTONS */
+.buttons{
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons input{
+    margin-top: 3%;
+    width: 40%;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.buttons input:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* CARROUSEL */
+.planets{
+    display: grid;
+    height: 100vh;
+}
+.planets div{
+    margin-top: 2vh;
+    justify-self: center;
+    align-items: center;
+}
+.planets img:not(.active){
+    height: 6vh;
+}
+.planets p{
+    margin-left: 10px;
+}
+.planets span{
+    margin-right: 10px;
+}
+.planets .active span::before{
+    content: "You here - ";
+    color: white;
+}
+.planets div{
+    color: white;
+    display: flex;
+}
+.planets .active img{
+    height: 12vh;
+}

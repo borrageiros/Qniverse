@@ -1,0 +1,125 @@
+body {
+    overflow: hidden;
+}
+
+.main-container-profile {
+    display: flex;
+    height: 100vh;
+}
+
+.left-home-profile,
+.rigth-home-profile {
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.rigth-home-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/space-cartoon-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.rigth-home-profile > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 360px;
+    height: 450px;
+    padding: 2.5em;
+    border-radius: 2em;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.image-container-profile {
+    width: 128px;
+}
+
+.image-container-profile img {
+    max-width: 100%;
+}
+
+.user-name-profile,
+.user-planet-profile,
+.user-planet-profile {
+    display: flex;
+}
+
+.user-name-profile p,
+.user-stars-profile,
+.user-planet-profile p {
+    font-size: 2em;
+}
+
+.user-name-profile p {
+    margin-right: 1em;
+    margin-top: 0;
+}
+
+.user-stars-profile {
+    margin: 0;
+}
+
+.user-name-profile img {
+    width: 24px;
+}
+
+.user-planet-profile {
+    align-items: center;
+}
+
+.user-planet-profile img {
+    margin-right: 2em;
+}
+
+.image-container-profile,
+.user-name-profile p,
+.user-stars-profile {
+    margin-bottom: 16px;
+}
+
+.user-name-profile img {
+    cursor: pointer;
+}
+
+.edit-name-profile {
+    display: flex;
+    align-items: center;
+}
+
+.input-name-profile {
+    padding-left: 1em;
+    border: 2px solid grey;
+    width: 200px;
+    height: 32px;
+    margin-right: .5em;
+}
+
+.input-name-profile,
+.btn-cancel-profile,
+.btn-accept-profile {
+    border: 2px solid grey;
+    border-radius: .6em;
+}
+
+
+.btn-cancel-profile,
+.btn-accept-profile {
+    width: 32px;
+    height: 38px;
+    color: red;
+}
+
+.btn-cancel-profile {
+    color: red;
+    margin-right: .25em;
+}
+
+.btn-accept-profile {
+    color: green;
+}

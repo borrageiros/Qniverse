@@ -1,0 +1,98 @@
+body {
+    overflow: hidden;
+}
+
+.main-container-profile {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side,
+.rigth-side {
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.rigth-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/space-cartoon-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.rigth-side > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 360px;
+    height: 550px;
+    padding: 2.5em;
+    border-radius: 2em;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.question_form{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    height: 100%;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.question, .image_url, .answer, .checkbox-button{
+    margin:2%;
+    background-color: #333333;
+    color: white;
+    text-align:center;
+}
+.question{
+    margin-top:1%;
+    margin-bottom:4%;
+    height: 100px;
+    width:80%;
+}
+.image_url, .answer{
+    width:80%;
+    height:30px;
+}
+
+.create{
+    margin-top:5%;
+    background-color: #333333;
+    color: white;
+    text-align:center;
+    width:40%;
+    height:50px;
+}
+
+.container{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.option{
+    accent-color: #333333;
+}
+
+.checkbox-button {
+    width:35px;
+    background-color: #333333;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin-top:10%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.checkbox-button:active {
+    background-color: gray;
+    color: black;
+}

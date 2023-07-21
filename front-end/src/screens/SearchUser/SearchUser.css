@@ -1,0 +1,91 @@
+body {
+    overflow: hidden;
+}
+
+.main-container-searchUser {
+    display: flex;
+    height: 100vh;
+}
+
+.left-home-searchUser,
+.rigth-home-searchUser {
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.rigth-home-searchUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../images/space-cartoon-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow-y: scroll;
+    width: 50%;
+    padding-top: 60px;
+}
+
+.image-container-searchUser {
+    width: 128px;
+}
+
+.image-container-searchUser img {
+    max-width: 100%;
+}
+
+.user-name-searchUser,
+.user-planet-searchUser,
+.user-planet-searchUser {
+    display: flex;
+}
+
+.user-name-searchUser p,
+.user-stars-searchUser,
+.user-planet-searchUser p {
+    font-size: 2em;
+}
+
+.user-name-searchUser p {
+    margin-right: 1em;
+    margin-top: 0;
+}
+
+.user-stars-searchUser {
+    margin: 0;
+}
+
+.user-name-searchUser img {
+    width: 24px;
+}
+
+.user-planet-searchUser {
+    align-items: center;
+}
+
+.user-planet-searchUser img {
+    margin-right: 2em;
+}
+
+.image-container-searchUser,
+.user-name-searchUser p,
+.user-stars-searchUser {
+    margin-bottom: 16px;
+}
+
+.user-name-searchUser img {
+    cursor: pointer;
+}
+
+.edit-name-searchUser {
+    display: flex;
+    align-items: center;
+}
+
+.input-name-searchUser {
+    padding-left: 1em;
+    border: 2px solid grey;
+    width: 200px;
+    height: 32px;
+    margin-right: .5em;
+}

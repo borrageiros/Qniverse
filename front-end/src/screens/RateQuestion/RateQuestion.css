@@ -1,0 +1,80 @@
+body {
+    overflow: hidden;
+}
+
+.main-container-rateQuestion {
+    display: flex;
+    height: 100vh;
+}
+
+.left-rateQuestion {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+.rigth-rateQuestion {
+    padding-top: 2em;
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid black;
+    overflow-y: auto;
+    background-image: url("../../images/space-cartoon-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* USER */
+.user{
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vh;
+    cursor: pointer;
+}
+.user img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+}
+
+
+/* SEARCH */
+.search-player{
+    position: absolute;
+    right: 51%;
+    top: 6vh;
+    align-items: center;
+    content: "";
+}
+
+
+/* BUTTONS */
+.buttons{
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons input{
+    margin-top: 3%;
+    width: 40%;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.buttons input:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

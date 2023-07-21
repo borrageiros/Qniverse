@@ -1,0 +1,43 @@
+
+.main-container-final-results{
+    display: flex;
+    justify-content: center;
+    background-image: url("../../images/universe.png");
+    height: 100vh;
+}
+
+/* result */
+.result{
+    margin-top: 10px;
+    height: 20vh;
+}
+
+/* player banner */
+div[class^='player']{
+    position: absolute;
+    height: 15vh;
+    width: 60vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+div[class^='player'] img{
+    height: 8vh;
+}
+.player1{
+    top: 35vh;
+}
+.player2{
+    top:60vh
+}
+
+
+/* winner */
+.winner{
+    background-color: #2AAD1D;
+}
+div[class^='player']:not(.winner){
+    background-color: #AD1D1D;
+}

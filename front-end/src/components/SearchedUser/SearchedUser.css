@@ -1,0 +1,28 @@
+.default-searchedUser {
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    cursor: pointer;
+    width: 100%;
+    height: 80px;
+    max-width: 500px;
+    border-radius: 8px;
+    border: transparent;
+    background-color: white;
+}
+
+.default-searchedUser img {
+    width: 64px;
+    height: 64px;
+    margin-right: 2em;
+}
+
+.default-searchedUser p {
+    color: #000;
+    font-weight: 600;
+}
+
+.bottom {
+    margin-bottom: 30px;
+}
+

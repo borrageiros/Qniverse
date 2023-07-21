@@ -1,0 +1,93 @@
+body {
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+}
+
+.left,
+.rigth-challenge-player {
+    height: 100vh;
+    width: 50%;
+}
+
+.user {
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vh;
+}
+
+.user img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+}
+
+.search-player {
+    position: absolute;
+    right: 51%;
+    top: 6vh;
+    align-items: center;
+    content: "";
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons input{
+    margin-top: 3%;
+    width: 40%;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+
+.rigth-challenge-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/space-cartoon-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.buttons-challenge-player input{
+    margin-top: 3%;
+    width: 40%;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttons-challenge-player{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 40%;
+}
+
+.buttonQuestionsMenu:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+.container,
+.form__username,
+.form__email,
+.form__password,
+.form__confirmPassword,
+.form__btnCreateAccount {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+  height: 100vh;
+  background-image: url("/src/images/space-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 1.5em 1em;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 1.5em;
+  background-color: #fff;
+}
+
+.form > a:first-of-type {
+  margin-bottom: 1.25em;
+}
+
+.form__logo {
+  width: 260px;
+}
+
+.form__links,
+.form__data {
+  margin-bottom: 2em;
+}
+
+.form__links > a:first-of-type {
+  margin-right: 2em;
+}
+
+.active {
+  border-bottom: 3px solid hsl(299, 100%, 40%);
+}
+
+.form__data {
+  max-width: 380px;
+}
+
+.form__links a,
+.copyright {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form__username,
+.form__email,
+.form__password {
+  margin-bottom: 0.8em;
+}
+
+.form__btnCreateAccount {
+  margin-bottom: 2.5em;
+  padding: 0.4em 0;
+  font-size: 1rem;
+  max-width: 250px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1366px) {
+  .container {
+    align-items: stretch;
+    justify-content: flex-end;
+    padding: 0;
+    background-size: auto;
+  }
+
+  .form {
+    position: relative;
+    padding: 4em 4em 0;
+    max-width: 40%;
+    border-radius: 0;
+  }
+
+  .form > a:first-of-type {
+    margin-bottom: 3em;
+  }
+
+  .form__logo {
+    width: 400px;
+  }
+
+  .form__links {
+    margin-bottom: 3em;
+  }
+
+  .form__data {
+    max-width: 560px;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1800px) {
+  .form__logo {
+    width: 500px;
+  }
+
+  .form__links a {
+    font-size: 1.2rem;
+  }
+}

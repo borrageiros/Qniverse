@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+.card,
+.card2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 80%;
+    min-width: 480px;
+    max-width: 550px;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    font-family: "Poppins";
+}
+
+.card__description,
+.card2__description {
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card {
+    display: flex;
+}
+
+.card img {
+    max-width: 40%;
+    object-fit: cover;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+.card__info {
+    padding: 1em;
+    width: 100%;
+}
+
+.card__description + div,
+.card2__description + div {
+    font-size: 0.9rem;
+}
+
+.card__options,
+.card2__options {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card__correctAnswer,
+.card2__correctAnswer {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.card__btnAccept,
+.card__btnDecline,
+.card2__btnAccept,
+.card2__btnDecline {
+    padding: 0.3em 2em;
+}
+
+.card__btnAccept,
+.card2__btnAccept {
+    margin-right: 1em;
+}
+
+.card2 {
+    padding: 1em;
+}
+
+.correct {
+    color: darkgreen;
+    font-weight: 700;
+}
+
+.card__info,
+.card2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__options,
+.card2__options {
+    margin-top: auto;
+}
